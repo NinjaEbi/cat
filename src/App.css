@@ -1,0 +1,46 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #dbeafe, #93c5fd);
+  margin: 0;
+  height: 100vh;
+}
+
+.game {
+  padding: 20px;
+}
+
+.cat {
+  width: 250px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.stats {
+  margin: 20px;
+  font-size: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.actions button {
+  margin: 10px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #3b82f6;
+  color: white;
+}
+
+.actions button:hover {
+  transform: scale(1.1);
+  background: #2563eb;
+}
